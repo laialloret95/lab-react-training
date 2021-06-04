@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import IdCard from './components/IdCard';
+import Greetings from './components/Greetings/Greetings';
+import IdCard from './components/IdCard/IdCard';
+
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         birth={new Date("1988-05-11")}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+
+      <Greetings lang='es'> Laia </Greetings>
     </div>
   );
 }
