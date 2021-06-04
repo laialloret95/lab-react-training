@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Greetings.css"
 
 class Greetings extends Component {
     render() {
@@ -15,7 +16,7 @@ class Greetings extends Component {
         }
 
         return(
-            <div>
+            <div class="greeting-container">
                 <p> {translation(this.props.lang)} {this.props.children}</p>
             </div>
         )
