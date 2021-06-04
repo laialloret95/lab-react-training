@@ -9,7 +9,8 @@
     flex-direction: column;
 }
 
-img {
-    flex-basis: 20%;
-    margin: 1em
+.container img {
+    margin: 1em;
+    object-fit: cover;
+
 }

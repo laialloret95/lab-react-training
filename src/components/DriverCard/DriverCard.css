@@ -1,0 +1,20 @@
+.driverCard-container {
+    display:flex;
+    background-color: rgba(9, 93, 219, 0.678);
+    margin: 1em;
+    color: white;
+    border-radius: 12px;
+    justify-content: center;
+    height: 210px;
+}
+
+.driverCardContent-container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.driverCard-container img {
+    object-fit: cover;
+    border-radius: 50%;
+}
