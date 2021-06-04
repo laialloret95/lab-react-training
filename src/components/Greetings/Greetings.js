@@ -16,7 +16,7 @@ class Greetings extends Component {
         }
 
         return(
-            <div class="greeting-container">
+            <div className="greeting-container">
                 <p> {translation(this.props.lang)} {this.props.children}</p>
             </div>
         )

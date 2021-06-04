@@ -1,0 +1,25 @@
+.card-container {
+    margin: 0.2em;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+img {
+    width: 20%;
+    align-self: flex-end;
+}
+
+.cardNum {
+    text-align: center;
+    font-size: 30px;
+}
+
+.bank-expiration {
+    display: flex;
+}
+
+.bank-expiration p {
+    margin-right: 2em;
+}
