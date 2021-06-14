@@ -5,7 +5,7 @@ class LikeButton extends Component {
         super(props)
         this.state = {
             value: 0,
-            color: 'white'
+            color: 'black'
         }
     }
     handleClick = () => {
@@ -13,7 +13,6 @@ class LikeButton extends Component {
             value: this.state.value + 1,
             color: this.getRandomBackgroundColor()
         })
-        console.log(this.state.color)
     }
 
     getRandomBackgroundColor = () => {

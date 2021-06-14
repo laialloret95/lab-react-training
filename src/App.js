@@ -8,6 +8,7 @@ import RandomNum from './components/RandomNum/RandomNum';
 import Rating from './components/Rating/Rating';
 import DriverCard from './components/DriverCard/DriverCard';
 import LikeButton from './components/LikeButton/LikeButton';
+import ClickablePicture from './components/ClikablePicture/ClickablePicture';
 
 
 function App() {
@@ -94,6 +95,11 @@ function App() {
         }} />
 
         <LikeButton />
+
+        <ClickablePicture
+          img='/img/persons/maxence.png'
+          imgClicked='/img/persons/donaldTrump.png'
+        />
     </div>
 
   );
