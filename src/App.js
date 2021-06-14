@@ -11,6 +11,7 @@ import LikeButton from './components/LikeButton/LikeButton';
 import ClickablePicture from './components/ClikablePicture/ClickablePicture';
 import Dice from './components/Dice/Dice';
 import Carousel from './components/Carousel/Carousel';
+import NumbersTable from './components/NumbersTable/NumbersTable';
 
 
 function App() {
@@ -113,6 +114,8 @@ function App() {
             'https://randomuser.me/api/portraits/men/2.jpg'
           ]}
         />
+
+        <NumbersTable limit={16} />
 
     </div>
 
