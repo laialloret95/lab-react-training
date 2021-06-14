@@ -7,6 +7,7 @@ import IdCard from './components/IdCard/IdCard';
 import RandomNum from './components/RandomNum/RandomNum';
 import Rating from './components/Rating/Rating';
 import DriverCard from './components/DriverCard/DriverCard';
+import LikeButton from './components/LikeButton/LikeButton';
 
 
 function App() {
@@ -91,6 +92,8 @@ function App() {
           model: "Audi A3",
           licensePlate: "BE33ER"
         }} />
+
+        <LikeButton />
     </div>
 
   );
