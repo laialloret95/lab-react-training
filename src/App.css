@@ -4,3 +4,15 @@ button {
   padding: 15px 15px;
   font-size: 16px;
 }
+
+.cont {
+  margin: 1em;
+}
+
+.clickablePic {
+  height: 200px;
+}
+
+.dice {
+  height: 80px;
+}

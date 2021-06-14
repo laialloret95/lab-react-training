@@ -23,7 +23,7 @@ class LikeButton extends Component {
     render() {
         const { value, color } = this.state;
         return(
-            <div>
+            <div className="cont">
                 <button style={{backgroundColor: color}} onClick={this.handleClick}>{value}  {value === 1 ? 'Like' : 'Likes'}</button>
             </div>
         )

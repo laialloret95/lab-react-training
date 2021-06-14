@@ -16,8 +16,8 @@ class ClickablePicture extends Component {
     render() {
         const { initialPic } = this.state;
         return(
-            <div>
-                <img onClick={this.handleClick} src={initialPic  ? this.props.img : this.props.imgClicked} alt="porfile-pic"/>
+            <div className="cont">
+                <img className="clickablePic" onClick={this.handleClick} src={initialPic  ? this.props.img : this.props.imgClicked} alt="porfile-pic"/>
             </div>
         )
     }
