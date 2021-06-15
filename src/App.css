@@ -33,3 +33,21 @@ button {
   font-size: 20px;
   padding-top: 0.5em
 }
+
+.profile-container {
+  display: flex;
+  margin: 1em;
+  border: 1px solid gray
+}
+
+.profile-container > img {
+  height: 200px;
+  width: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 1em;
+}
