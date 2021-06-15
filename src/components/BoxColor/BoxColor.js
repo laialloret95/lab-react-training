@@ -3,7 +3,6 @@ import "./BoxColor.css"
 
 class BoxColor extends Component {
     render() {
-        console.log(this.props)
 
         const Background = (r,g,b) => {
             return  { background: rgb(r,g,b)}
