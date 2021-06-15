@@ -14,6 +14,8 @@ import Carousel from './components/Carousel/Carousel';
 import NumbersTable from './components/NumbersTable/NumbersTable';
 import FaceBook from './components/FaceBook/FaceBook';
 import SignupPage from './components/SignupPage/SignupPage';
+import SingleColorPicker from './components/SingleColorPicker/SingleColorPicker';
+import RGBColorPicker from './components/RGBColorPicker/RGBColorPicker';
 
 
 function App() {
@@ -122,6 +124,8 @@ function App() {
         <FaceBook />
 
         <SignupPage />
+
+        <RGBColorPicker />
     </div>
 
   );

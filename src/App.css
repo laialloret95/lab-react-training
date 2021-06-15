@@ -69,3 +69,19 @@ form {
 .submit {
   margin: 0.5em
 }
+
+.square {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.colorPicker-container {
+  display: flex;
+  align-items: center;
+}
+
+.colorPicker-container > * {
+  margin: 0.2em;
+  height: 50px;
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { FormFeedback } from 'reactstrap';
 
 class SignupPage extends Component {
     constructor(props) {
