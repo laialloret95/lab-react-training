@@ -57,3 +57,15 @@ button {
   justify-content: space-evenly;
   margin: 1em;
 }
+
+form {
+  margin: 2em
+}
+
+.form-group {
+  margin: 0.5em
+}
+
+.submit {
+  margin: 0.5em
+}
